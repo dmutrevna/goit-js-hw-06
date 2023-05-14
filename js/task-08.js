@@ -9,12 +9,15 @@ function onSubmit(evt) {
 
   if (emailEl === '' || passwordEl === '') {
     alert('Всі поля повинні бути заповнені')
+    return
   }
 
-  const { email, password } = formRef.elements
+  const formEl = {
+    email: emailEl,
+    password: passwordEl,
+  }
 
-  console.log(email)
-  console.log(password)
+  console.log(formEl)
 
   formRef.reset()
 }

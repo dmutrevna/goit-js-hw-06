@@ -15,6 +15,3 @@ btnIncrement.addEventListener('click', () => {
   counterValue += 1
   value.textContent = counterValue
 })
-
-console.dir(btnDecrement)
-console.dir(btnIncrement)

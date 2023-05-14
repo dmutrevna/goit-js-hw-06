@@ -10,6 +10,3 @@ function onClick(event) {
     textValue.textContent = event.currentTarget.value
   }
 }
-
-console.log(userName)
-console.log(textValue)

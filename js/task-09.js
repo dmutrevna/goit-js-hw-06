@@ -13,5 +13,4 @@ function changeBackgroundColor() {
   const randomColor = getRandomHexColor()
   document.body.style.backgroundColor = randomColor
   colorSpan.textContent = randomColor
-  console.log(colorSpan.textContent)
 }
